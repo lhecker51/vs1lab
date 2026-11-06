@@ -31,16 +31,16 @@
 
                         <legend>Add a new GeoTag</legend>
 
-                        <label>Latitude:</label>
+                        <label for="tag-latitude">Latitude:</label>
                         <input id="tag-latitude" type="text" value="41.841998" disabled>
 
-                        <label>Longitude:</label>
+                        <label for="tag-longitude">Longitude:</label>
                         <input id="tag-longitude" type="text" value="-89.485905" disabled>
 
-                        <label>Name:</label>
+                        <label for="tag-name">Name:</label>
                         <input id="tag-name" type="text" placeholder="e.g. Pyongyang" maxlength="10" required>
 
-                        <label>Hashtag:</label>
+                        <label for="tag-hashtag">Hashtag:</label>
                         <input id="tag-hashtag" type="text" placeholder="e.g. #fnj" pattern="#.{0,10}" maxlength="11" >
 
                         <input id="tag-submit" type="submit" value="Add Tag">
@@ -58,8 +58,8 @@
                 <form class="discovery__search" id="discoveryFilterForm" action="/discovery" method="post">
                     <fieldset>
                         <legend>Search</legend>
-                        <label>Search term or keywords:</label>
-                        <input id="discovery-search" type="text">
+                        <label for="discovery-search">Search term or keywords:</label>
+                        <input id="discovery-search" type="text" placeholder="e.g. Belgrade">
                         <input id="discovery-submit" type="submit" value="Search">
                     </fieldset>
                 </form>
