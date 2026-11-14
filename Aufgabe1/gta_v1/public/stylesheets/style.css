@@ -169,7 +169,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(167, 179, 125);
+  background-color: rgb(166, 179, 125);
   align-items: center;
   padding: 30px;
 }
@@ -196,7 +196,7 @@ header nav {
 
 .main__tagging {
   padding: 50px;
-  background-color: rgb(167, 250, 224, 0.8);
+  background-color: rgb(254, 250, 224, 0.8);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
