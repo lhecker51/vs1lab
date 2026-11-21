@@ -150,6 +150,19 @@ function updateLocation() {
         document.getElementById("discovery_longitude").value = helper.longitude;
 
         });
+        // Initialize the map and update the markers with the current location
+        let mapManager = new MapManager();
+        let latitude = document.getElementById("latitude").value;
+        let longitude = document.getElementById("longitude").value;
+        mapManager.initMap(latitude, longitude);
+        mapManager.updateMarkers(latitude, longitude);
+        document.getElementById("mapView").remove();
+        let span = document.getElementById("map").querySelector("span");
+        if (span) {
+            span.remove();
+        }
+
+
 
         
     } catch (error) {
