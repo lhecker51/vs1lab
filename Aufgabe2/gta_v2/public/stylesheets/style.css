@@ -267,6 +267,10 @@ header nav {
   align-items: center;
 }
 
+#map { 
+   height: 500px;
+ }
+
 .discovery__results li {
   padding: 10px;
   list-style-type: none;
